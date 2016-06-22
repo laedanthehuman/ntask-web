@@ -45,7 +45,7 @@ class Signin extends Ntask{
         signup.addEventListener("click",(e) =>{
             e.preventDefault();
             this.emit("signup");
-        })
+        });
     }
 }
 
