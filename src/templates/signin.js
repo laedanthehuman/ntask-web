@@ -6,8 +6,8 @@ exports.render = () => {
             <input type="text" data-email>
         </label>
         <label class="item item-input item-stacked-label">
-            <span class="input-label" data-password>Senha</span>
-            <input type="password">
+            <span class="input-label" >Senha</span>
+            <input type="password" data-password>
         </label>
         <div class="padding">
             <button class="button button-positive button-block">

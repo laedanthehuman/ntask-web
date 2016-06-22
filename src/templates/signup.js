@@ -14,12 +14,13 @@ exports.render = () =>{
             <input type="password" data-password>
         </label>
     </div>
-</form>  
-
-<div class="padding">
+    <div class="padding">
     <button class="button button-positive button-block">
         <i class="ion-thumbsup"></i>Cadastrar
     </button>
 </div>
+</form>  
+
+
     `   
 }

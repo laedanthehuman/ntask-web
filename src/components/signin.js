@@ -1,4 +1,4 @@
-import Ntask from '../ntaks.js'
+import Ntask from '../ntask.js'
 import Template from '../templates/signin.js'
 
 class Signin extends Ntask{
@@ -24,7 +24,7 @@ class Signin extends Ntask{
             const password = e.target.querySelector("[data-password]");
             const opts = {
                 method:"POST",
-                url:`${this.url}/token`,
+                url:`${this.URL}/token`,
                 json:true,
                 body:{
                     email:email.value,

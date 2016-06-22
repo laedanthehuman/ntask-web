@@ -1,4 +1,4 @@
-import Ntask from '../ntaks.js'
+import Ntask from '../ntask.js'
 import Template from '../templates/signup.js'
 
 class Signup extends Ntask{
@@ -28,8 +28,8 @@ class Signup extends Ntask{
                 json:true,
                 body:{
                     name:name.value,
-                    email:email.value,
-                    password:password.value
+                    password:password.value,
+                    email:email.value
                 }
             };
             this.request(opts,(err,resp,data) =>{
@@ -41,7 +41,7 @@ class Signup extends Ntask{
             });
         });
     }
-    
+
 }
 
 module.exports = Signup
